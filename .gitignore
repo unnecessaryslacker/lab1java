@@ -1,0 +1,11 @@
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+
+# Compiled classes
+out/
+bin/
+
+# System
+.DS_Store
