@@ -16,7 +16,7 @@ public class MatrixGenerator {
                     case 2 -> (short) rnd.nextInt(50);
                     case 3 -> rnd.nextInt(100);
                     case 4 -> rnd.nextLong(100);
-                    case 5 -> (char) (rnd.nextInt(26) + 65);
+                    case 5 -> (rnd.nextInt(26) + 65);
                     case 6 -> rnd.nextFloat() * 10;
                     default -> 0;
                 };
