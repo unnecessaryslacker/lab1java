@@ -3,10 +3,10 @@ package lab1;
 public class Main {
     public static void main(String[] args) {
         try {
-            int z = 3517;
-            int C5 = z % 5;
-            int C7 = z % 7;
-            int C11 = z % 11;
+            int zal = 3517;
+            int C5 = zal % 5;
+            int C7 = zal % 7;
+            int C11 = zal % 11;
 
             System.out.println("C5 = " + C5);
             System.out.println("C7 = " + C7);
